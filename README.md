@@ -3,7 +3,7 @@
 We're creating an application that allows party planners to plan prim and proper parties.
 
 ## Setup
-You'll need a `prim-proper-props` database. Follow the guidance in the `database.sql` file to create tables.
+[X] You'll need a `prim-proper-props` database. Follow the guidance in the `database.sql` file to create tables.
 
 ## Base Requirements
 
@@ -11,11 +11,11 @@ This application is fully functional! But `App.jsx` is getting really crowded. I
 
 Create the new components in the following order (increasing level of difficulty):
 
-1. Header
-1. Footer
-1. Guest List
-1. Dinner Supplies
-1. Guest Form
+1. [X] Header
+1. [X] Footer
+1. [ ] Guest List
+1. [ ] Dinner Supplies
+1. [ ] Guest Form
 
 The application should still work the same way. Here is what `App.jsx` could render when the refactor is complete:
 
