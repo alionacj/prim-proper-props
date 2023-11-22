@@ -1,3 +1,5 @@
+import RemoveGuest from "../RemoveGuest/RemoveGuest"
+
 function GuestList({guestList}) {
     return (
         <>
@@ -7,6 +9,7 @@ function GuestList({guestList}) {
                 <tr>
                 <th>Name</th>
                 <th>Kid's Meal</th>
+                <th>Remove Guest</th>
                 </tr>
             </thead>
             <tbody>
@@ -14,6 +17,7 @@ function GuestList({guestList}) {
                 <tr key={guest.id}>
                     <td>{guest.name}</td>
                     <td>{String(guest.kidsMeal)}</td>
+                    <td><RemoveGuest /></td>
                 </tr>
                 ))}
             </tbody>

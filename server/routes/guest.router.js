@@ -37,5 +37,11 @@ router.post('/', (req, res) => {
         })
 })
 
+router.delete('/', (req, res) => {
+    console.log(req.body)
+    const sqlText = `DELETE FROM guests where "id" = $1`
+    const sqlValues = ``
+})
+
 
 module.exports = router;
